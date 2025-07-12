@@ -20,5 +20,11 @@ The application scope of this project is broad. It is ideally suited for any mac
 The pipeline takes a dataset—in this instance, the classic Iris dataset—and automatically segregates the features into numerical and categorical subsets. Numerical columns are processed through a pipeline that imputes missing values using the mean strategy and scales them using standard normalization techniques. Categorical features undergo imputation with the most frequent category and are then encoded into one-hot vectors. These individual pipelines are orchestrated using Scikit-learn’s ColumnTransformer to ensure each transformation targets the appropriate columns. The final output is a clean, numerical dataset ready for training or analysis, with the added benefit of a process that can be reused on different datasets with only minimal adjustments
 In conclusion, this project underscores the importance of automated data preprocessing in any data-driven initiative. By employing well-established Python libraries and adhering to modular design principles, the pipeline ensures data consistency, reduces human error, and streamlines the transition from raw data to actionable insights. It exemplifies best practices in preparing data for analytical modeling and serves as a robust template that can be customized for diverse datasets and applications.
 
+OUTPUT
+
+<img width="1544" height="354" alt="Image" src="https://github.com/user-attachments/assets/816bb3ce-2e5e-499f-9166-b3deb1a760d6" />
+
+<img width="1527" height="1031" alt="Image" src="https://github.com/user-attachments/assets/b2fb9cf2-bac8-4b78-b823-01ae86ad9024" />
+
 
 
